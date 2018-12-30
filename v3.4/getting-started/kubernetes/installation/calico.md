@@ -10,7 +10,7 @@ Ensure that you have a Kubernetes cluster that meets the
 {{site.prodname}} [system requirements](../requirements). If you don't,
 follow the steps in [Using kubeadm to create a cluster](http://kubernetes.io/docs/getting-started-guides/kubeadm/).
 
-## Installing {{site.prodname}} for policy and networking
+## Installing {{ site.prodname }} for policy and networking
 
 ### Selecting your datastore type and number of nodes
 
@@ -24,7 +24,7 @@ datastore type and number of nodes.
 
 - [Kubernetes API datastore—more than 50 nodes](#installing-with-the-kubernetes-api-datastoremore-than-50-nodes) (beta)
 
-> **Note**: {{site.prodname}} networking with the Kubernetes API datastore
+> **Note**: {{ site.prodname }} networking with the Kubernetes API datastore
 > is beta because it does not yet support {{site.prodname}} IPAM. It uses
 > `host-local` IPAM with Kubernetes pod CIDR assignments instead.
 {: .alert .alert-info}
